@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css" />
+      <title> Weather </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   </head>
+
+   <body >
+   <button onclick="getWeather()" >Show Weather of my current location</button><br/><br/>
+   <input type="text" id="show_by_search" placeholder="Enter city name" class="resizedTextbox">
+   <button onclick="showBySearch()" id="show_Now" class="btnsize">Search</button><br/><br/>
+   <button onclick="show_news()" id="show_News" class="btnsize">News</button>
+    <div class="display_data">
+      <h2><div id="location"></div></h2>
+      <h1><div id="temp"></div></h1>
+      <h1><div id="summary"></div></h1>
+      <h1><div id="icon"></div></h1>
+      <h1><div id="cityLocation"></div></h1> 
+      <h1><div id="time"></div></h1>
+      <h1><div id="humidity"></div></h1>
+      <h1><div id="windSpeed"></div></h1> 
+      <h1><div id="visibility"></div></h1> 
+    </div>
+    <h1><div id="news"></div></h1> 
+   </body>
+   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+  <script src="app.js"></script> 
+
+</html> 
