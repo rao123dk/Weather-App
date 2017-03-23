@@ -51,7 +51,7 @@ function show_news(){
 // By my current location
 function getWeather(){
     var location = document.getElementById("location");
-    var apiKey ="95c8fdf818f63ee27b67731d2058f6b3";
+    var apiKey ="95c8fdf818f63ee27b67731d2058f6b4";
     var url ="https://api.darksky.net/forecast/";
     
    
